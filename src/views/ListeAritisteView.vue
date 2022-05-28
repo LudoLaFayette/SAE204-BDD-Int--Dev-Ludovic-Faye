@@ -8,6 +8,9 @@
     </nav>
     <MenuH></MenuH>
   </header>
+  <main>
+
+  
   <img src="image-1-3.png" class="w-[1440px] h-[1014px] object-cover" />
 
  <div class="flex justify-start items-start w-[560px] gap-2.5 p-2.5">
@@ -244,6 +247,7 @@
     <p class="flex-grow w-[906px] text-5xl text-right text-[#d92d3c]">En savoir plus</p>
   </div>
 </div>
+</main>
  <footer>
     <div class="relative h-[1312px] w-[1449px] bg-[#b1aca9]">
       <div class="absolute left-[33.78px] top-[150.53px] flex w-[486.93px] items-center justify-center gap-5 px-2.5 pt-2.5 pb-[30px]">

@@ -8,6 +8,8 @@
     </nav>
     <MenuH></MenuH>
   </header>
+<main>
+
 
   <RouterView />
   <div class="relative flex w-[1120px] items-start justify-start gap-2.5 p-2.5">
@@ -116,7 +118,7 @@
       <p class="w-[906px] flex-grow text-right text-5xl text-[#d92d3c]">DÉCOUVRIR</p>
     </div>
   </div>
-
+</main>
   <footer>
     <div class="relative h-[1312px] w-[1449px] bg-[#b1aca9]">
       <div class="absolute left-[33.78px] top-[150.53px] flex w-[486.93px] items-center justify-center gap-5 px-2.5 pt-2.5 pb-[30px]">
