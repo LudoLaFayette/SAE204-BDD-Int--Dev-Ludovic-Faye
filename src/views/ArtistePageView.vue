@@ -9,13 +9,19 @@
     <MenuH></MenuH>
   </header>
   <main>
-      <img src="image-1-3.png" class="w-[1440px] h-[1014px] object-cover" />
-      <div
+    <img src="image-1-3.png" class="h-[1014px] w-[1440px] object-cover" />
+    <div class="flex justify-start items-start w-[560px] gap-2.5 p-2.5">
+  <div
+    class="flex justify-start items-start flex-grow relative gap-2.5 px-[35px] py-1 rounded-[25px] bg-white border-2 border-red-600"
+  >
+    <p class="flex-grow w-[470px] text-[80px] font-bold text-center text-red-600">Artiste</p>
+  </div>
+<div
   class="flex flex-col justify-start items-start w-[936px] h-[1232px] relative gap-10 rounded-[35px] bg-gray-200"
   style="box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.5);"
 >
   <img
-    src="image-1-1.png"
+    src="image-1-3.png"
     class="self-stretch flex-grow rounded-tl-[35px] rounded-tr-[35px] object-cover"
   />
   <p class="self-stretch flex-grow-0 flex-shrink-0 w-[936px] text-[80px] text-left text-black">
@@ -26,16 +32,16 @@
   >
     <p class="flex-grow w-[916px] text-[52px] text-left text-black">
       <span class="flex-grow w-[916px] text-[52px] text-left text-black"
-        >Lundi 16 Juin : 14h30 - 16h30 </span
+        >Pasaege le lundi 18 juillet entre 14h30 et 16h30 </span
       ><br /><span class="flex-grow w-[916px] text-[52px] text-left text-black"
-        >Lieu : Scène Interieur Halle</span
+        >Style : Guitare et Variété Francaise</span
       ><br /><span class="flex-grow w-[916px] text-[52px] text-left text-black"
-        >Catégorie : Chanson Française, Variété Francaise, Guitare</span
+        >Artiste venant de DIjon</span
       >
     </p>
   </div>
   <div
-    class="flex flex-col justify-center items-end self-stretch flex-grow-0 flex-shrink-0 relative gap-2.5 pt-2.5"
+    class="flex flex-col justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-2.5"
   >
     <svg
       width="936"
@@ -50,15 +56,16 @@
     </svg>
   </div>
   <div
-    class="flex justify-end items-center self-stretch flex-grow-0 flex-shrink-0 h-[26px] relative pr-[30px] pb-5"
+    class="flex justify-end items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-2.5 pr-[30px]"
   >
-    <p class="flex-grow w-[906px] h-[9px] text-5xl text-right text-[#d92d3c]">RESERVER</p>
+    <p class="flex-grow w-[906px] text-5xl text-right text-[#d92d3c]">En savoir plus</p>
   </div>
 </div>
-<img src="image-4.png" class="w-[1102px] h-[733.33px] object-cover" />
-<img src="image-6.png" class="w-[1102px] h-[827.11px] object-cover" />
+
+    <img src="image-7.png" class="w-[1102px] h-[547.68px] object-cover" />
+    <img src="image-8.png" class="w-[1102px] h-[741.29px] object-cover" />
   </main>
-    <footer>
+  <footer>
     <div class="relative h-[1312px] w-[1449px] bg-[#b1aca9]">
       <div class="absolute left-[33.78px] top-[150.53px] flex w-[486.93px] items-center justify-center gap-5 px-2.5 pt-2.5 pb-[30px]">
         <p class="w-[466.93px] flex-grow text-left text-[100px] font-bold text-[#801e1e]">Le Festival</p>
