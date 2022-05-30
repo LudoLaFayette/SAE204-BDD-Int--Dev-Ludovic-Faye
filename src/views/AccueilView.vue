@@ -157,9 +157,10 @@
 import Logo from "../components/icons/LogoView.vue";
 import MenuH from "../components/icons/MenuHView.vue";
 import Play from "../components/icons/PlayView.vue";
-import Arrowdown from "../components/icons/ArrowdownView.vue";
+import Arrowdown from "../components/icons/FlecheBasView.vue";
 import Social from '../components/icons/SocialView.vue'
 export default {
+  name : "AcceuilView",
   components: { Logo, MenuH, Play, Arrowdown, Social },
 };
 </script>
