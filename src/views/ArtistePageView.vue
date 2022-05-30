@@ -1,65 +1,31 @@
 <template>
-  
-  <main>
-    <img src="image-1-3.png" class="h-[1014px] w-[1440px] object-cover" />
-    <div class="flex justify-start items-start w-[560px] gap-2.5 p-2.5">
-  <div
-    class="flex justify-start items-start flex-grow relative gap-2.5 px-[35px] py-1 rounded-[25px] bg-white border-2 border-red-600"
-  >
-    <p class="flex-grow w-[470px] text-[80px] font-bold text-center text-red-600">Artiste</p>
-  </div>
-<div
-  class="flex flex-col justify-start items-start w-[936px] h-[1232px] relative gap-10 rounded-[35px] bg-gray-200"
-  style="box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.5);"
->
-  <img
-    src="image-1-3.png"
-    class="self-stretch flex-grow rounded-tl-[35px] rounded-tr-[35px] object-cover"
-  />
-  <p class="self-stretch flex-grow-0 flex-shrink-0 w-[936px] text-[80px] text-left text-black">
-    Yyes Jamait
-  </p>
-  <div
-    class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-2.5 px-2.5"
-  >
-    <p class="flex-grow w-[916px] text-[52px] text-left text-black">
-      <span class="flex-grow w-[916px] text-[52px] text-left text-black"
-        >Pasaege le lundi 18 juillet entre 14h30 et 16h30 </span
-      ><br /><span class="flex-grow w-[916px] text-[52px] text-left text-black"
-        >Style : Guitare et Variété Francaise</span
-      ><br /><span class="flex-grow w-[916px] text-[52px] text-left text-black"
-        >Artiste venant de DIjon</span
-      >
-    </p>
-  </div>
-  <div
-    class="flex flex-col justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-2.5"
-  >
-    <svg
-      width="936"
-      height="1"
-      viewBox="0 0 936 1"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      class="self-stretch flex-grow-0 flex-shrink-0"
-      preserveAspectRatio="none"
-    >
-      <line y1="0.75" x2="936" y2="0.75" stroke="black" stroke-width="0.5"></line>
-    </svg>
-  </div>
-  <div
-    class="flex justify-end items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-2.5 pr-[30px]"
-  >
-    <p class="flex-grow w-[906px] text-5xl text-right text-[#d92d3c]">En savoir plus</p>
-  </div>
-</div>
-
-    <img src="image-7.png" class="w-[1102px] h-[547.68px] object-cover" />
-    <img src="image-8.png" class="w-[1102px] h-[741.29px] object-cover" />
+  <div class="flex flex-col">
+    <div class="flex">
+      <img src="../../images/image_8.webp" class="w-full" />
     </div>
-  </main>
-
+    <!-- Changement de page pour correction à la maquette : plus de card ici -->
+    <div class="flex items-center justify-center gap-2.5 p-2.5">
+      <div class="mx-[5rem] mt-[-70px] flex rounded-[25px] border-2 border-red-600 bg-white px-[35px] py-1">
+        <h2 class="relative text-center font-alegreya-sans text-[80px] font-bold text-red-600">Yyes Jamait</h2>
+      </div>
+    </div>
+    <div class="flex flex-col gap-2 m-auto justify-center">
+      <p class="flex mx-7 my-7 leading-normal font-alegreya-sans">
+        Courte Biographie de Yves Jamait : Yves Jamait est né à Dijon en 1961. Il se destine tout d’abord à la cuisine, exerce plusieurs
+        métiers, tout en s’adonnant à la guitare. C'est en 2001 qu'il sort son premier album De Verre en Vers avec son trio sous le nom
+        deJamait . Repéré très vite pour ses talents d’écriture,Yves Jamait reçoit un accueil chaleureux du public et sort son 2éme album Le
+        coquelicot . Musicien, amoureux de poésie et du répertoire de ses aînés, il s’inscrit dans la tradition de la chanson française. Il
+        participe aux festivals qui célèbrent ce répertoire tels que les Francofolies , les Nuits de Champagne ou encore Alors... chante .
+        Son troisième album Je passais par hasard , à l’instar des précédents, sera certifé disque d’or . En tournée, il crée les Bars à
+        Jamait dans lesquels il convie ses amis chanteurs oubliés par le circuit médiatique. Très attaché à sa région d’origine, il
+        participe à de nombreuses manifestations locales. Saison 4 sort en 2011. S’en suivra une saison de tournée qui passe notamment par
+        le Grand Rex en avril 2012.
+      </p>
+      <div class="flex justify-center">
+        <img src="../../images/image_7.webp" class="w-[50%]" />
+      </div>
+    </div>
+  </div>
 </template>
 <script>
-
 </script>
