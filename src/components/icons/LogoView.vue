@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-shrink-0 flex-grow-0 flex-col items-start justify-between self-stretch overflow-hidden px-[9px]">
+  <div class="flex items-center justify-between px-[9px]">
     <div class="relative flex h-[67px] flex-shrink-0 flex-grow-0 items-center justify-start gap-[15px] overflow-hidden py-5">
       <div class="h-[53.26px] w-[67.16px] flex-shrink-0 flex-grow-0">
         <div class="h-[53.26px] w-[67.16px]">

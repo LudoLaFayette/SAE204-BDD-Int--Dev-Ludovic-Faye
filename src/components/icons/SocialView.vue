@@ -1,5 +1,5 @@
 <template>
-    <div class="absolute left-[56.96px] top-[1144.65px] flex w-[498.46px] items-center justify-end pr-[50px] opacity-30">
+    <div class="flex w-[498.46px] items-center justify-end pr-[50px] opacity-30">
         <svg
           width="114"
           height="25"

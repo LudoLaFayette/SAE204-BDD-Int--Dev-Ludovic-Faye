@@ -1,8 +1,7 @@
 <template>
-  <main>
-    <RouterView />
-    <div class="relative flex w-[1120px] items-start justify-start gap-2.5 p-2.5">
-      <p class="w-[1100px] flex-grow text-center text-[100px] italic text-white">
+  <div class="flex flex-col ">
+    <div class="flex w-[1120px] gap-2.5 p-2.5">
+      <p class="w-[1100px] flex-grow justify-center text-center text-[100px] italic text-white">
         <span class="w-[1100px] flex-grow text-center text-[100px] italic text-white"
           >“Un fesitival qui a des “h’ailles”. Un cadre unique tant historique.</span
         ><br /><span class="w-[1100px] flex-grow text-center text-[100px] italic text-white">Profitez de la variété offerte”</span>
@@ -11,7 +10,7 @@
     <Play></Play>
 
     <FlecheBas></FlecheBas>
-    <div class="relative flex w-[829px] items-start justify-start gap-2.5 p-2.5">
+    <div class="flex w-[829px] items-start justify-start gap-2.5 p-2.5">
       <p class="w-[809px] flex-grow text-center text-6xl text-white">
         Bienvenue au festival AUX’HALLES, un festival dans les halles de Sens, dans l’Yonne, à une heure de Auxerre par le nord. Un festival
         de musique de type varéiété francaise dans un cadre unique, un hall de marché.
@@ -107,7 +106,7 @@
         <p class="w-[906px] flex-grow text-right text-5xl text-[#d92d3c]">DÉCOUVRIR</p>
       </div>
     </div>
-  </main>
+  </div>
 </template>
 
 <script>
