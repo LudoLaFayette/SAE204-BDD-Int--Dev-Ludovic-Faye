@@ -9,7 +9,7 @@
     <MenuH></MenuH>
   </header>
   <main>
-      <RouterLink/>
+      <RouterView/>
   </main>
   <footer>
     <div class="relative h-[1312px] w-[1449px] bg-[#b1aca9]">
