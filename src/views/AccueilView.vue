@@ -21,10 +21,10 @@
 
     <div class="flex justify-center py-20 text-center">
       <div
-        class="flex flex-col items-center justify-center gap-[40px] rounded-[40px] bg-white"
+        class="flex flex-col items-center justify-center gap-[40px] rounded-t-full rounded-b-[100px] bg-white"
         style="box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5)"
       >
-        <img src="../../images/Image-1-1.webp" class="flex max-w-full rounded-tl-[35px] rounded-tr-[35px]" />
+        <img src="../../images/Image-1-1.webp" class="flex w-full rounded-t-[35px]" style="width: 100%" />
         <p class="pl-10 text-[80px] text-black">Concerts</p>
         <div class="flex items-center justify-center gap-2.5 px-2.5">
           <p class="flex text-center text-[52px] text-black">
