@@ -1,15 +1,19 @@
 <template>
   <div class="flex flex-col bg-gradient-to-b from-grey-gradient to-red-700">
-    <div class="flex w-[1120px] gap-2.5 p-2.5">
-      <p class="w-[1100px] flex  text-white text-center">
-        <span class="w-[1100px] flex-grow text-center text-[100px] italic text-white"
-          >“Un fesitival qui a des “h’ailles”. Un cadre unique tant historique.</span
-        ><span class="w-[1100px] flex-grow text-center text-[100px] italic text-white">Profitez de la variété offerte”</span>
+    <div class="mx-12 flex justify-center p-6 text-center">
+      <p class="mx-4 flex text-center text-[100px] italic text-white">
+        “Un fesitival qui a des “h’ailles”. Un cadre unique tant historique. Profitez de la variété offerte”
       </p>
     </div>
-    <Play></Play>
+    <div class="flex justify-center py-20">
+      <Play></Play>
+       
+    </div>
+    <div class="flex justify-center py-20">
+      <FlecheBas></FlecheBas>
+    </div>
 
-    <FlecheBas></FlecheBas>
+   
     <div class="flex w-[829px] items-start justify-start gap-2.5 p-2.5">
       <p class="w-[809px] flex-grow text-center text-6xl text-white">
         Bienvenue au festival AUX’HALLES, un festival dans les halles de Sens, dans l’Yonne, à une heure de Auxerre par le nord. Un festival

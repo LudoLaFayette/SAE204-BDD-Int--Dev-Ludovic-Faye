@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="flex bg-[#A8A29E]">
-      <Logo></Logo>
+      <Logo ></Logo>
       <p class="custom-font flex-grow text-center text-8xl font-bold text-[#801e1e]">AUX’HALLES</p>
       <MenuH></MenuH>
     </div>
