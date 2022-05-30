@@ -5,7 +5,7 @@
       <p class="custom-font flex-grow text-center text-8xl font-bold text-[#801e1e]">AUX’HALLES</p>
       <MenuH></MenuH>
     </div>
-    <hr class="border-color-900 border-[10px] border-solid bg-slate-900/80" />
+    <hr class=" border-[10px] border-solid bg-slate-900 border-slate-900" />
   </header>
   <main>
     <RouterView />
