@@ -1,10 +1,10 @@
 <template>
   <header>
     <Logo></Logo>
-
     <p class="w-[1232.47px] flex-grow text-center text-8xl font-bold text-[#801e1e] custom-font">AUX’HALLES</p>
     <nav>
       <RouterLink to="/" class="text-blue-600 underline">Accueil</RouterLink>
+      
     </nav>
     <MenuH></MenuH>
   </header>

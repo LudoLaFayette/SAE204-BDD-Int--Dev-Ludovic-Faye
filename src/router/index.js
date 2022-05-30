@@ -7,6 +7,7 @@ import ListeArtisteView from '../views/ListeArtisteView.vue'
 import ListeConcertView from '../views/ListeConcertView.vue'
 import MentionsLegalesView from '../views/MentionsLegalesView.vue'
 import PageConcertView from '../views/PageConcertView.vue'
+import Page404View from '../views/Page404View.vue'
 
 
 const router = createRouter({
@@ -19,7 +20,8 @@ const router = createRouter({
     { path: '/artisteListe', name: 'ListeArtisteView', component: ListeArtisteView },
     { path: '/concertListe', name: 'ListeConcertView', component: ListeConcertView },
     { path: '/mentions', name: 'MentionsLegalesView', component: MentionsLegalesView },
-    { path: '/concert', name: 'PageConcertView', component: PageConcertView },
+    { path: '/concert', name: 'PageConcertView', component: PageConcertView }, // '/:pathMatch(.*)*'
+    { path: '/:pathMatch(.*)*', name: '404View', component: Page404View},
   ]
 })
 
