@@ -33,11 +33,11 @@
           </p>
         </div>
         <div class="flex">
-          <hr class="flex w-[1500px] border-4 border-solid border-black bg-black" />
+          <hr class="flex w-[936px] border-2 border-solid border-black bg-black" />
         </div>
 
-        <div class="flex flex-shrink-0 flex-grow-0 items-center justify-end self-stretch pr-[30px] pb-5">
-          <p class="flex text-right text-5xl text-[#d92d3c]">DÉCOUVRIR</p>
+        <div class="flex justify-end py-5">
+          <p class="flex text-5xl text-[#d92d3c]">DÉCOUVRIR</p>
         </div>
       </div>
     </div>
