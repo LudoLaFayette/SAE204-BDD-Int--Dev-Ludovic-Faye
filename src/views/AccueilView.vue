@@ -21,23 +21,22 @@
 
     <div class="flex justify-center py-20">
       <div
-        class="flex h-[1500px] w-[936px] flex-col items-start justify-start gap-[50px] rounded-[35px] bg-white"
+        class="flex h-[1500px] w-[1000px] flex-col items-start justify-start gap-[50px] rounded-[35px] bg-white"
         style="box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5)"
       >
         <img src="../../images/Image-1-1.webp" class="flex-grow rounded-tl-[35px] rounded-tr-[35px]" />
-        <p class="w-[936px] flex-shrink-0 flex-grow-0 self-stretch text-left text-[80px] text-black">Concerts</p>
-        <div class="flex flex-shrink-0 flex-grow-0 items-center justify-center gap-2.5 self-stretch px-2.5">
+        <p class="w-[936px] pl-10 text-[80px] text-black">Concerts</p>
+        <div class="flex items-center justify-center gap-2.5 self-stretch px-2.5">
           <p class="w-[916px] flex-grow text-left text-[52px] text-black">
             Voici les concerts qui vont se proposer dans les jours qui vont arriver. Profitez et découvrez la variété française comme vous
             ne l’avez jamais vu auparavent.
           </p>
         </div>
         <div class="flex">
-          <hr class="flex w-[936px] border-2 border-solid border-black bg-black" />
+          <hr class="flex w-[1000px] border-2 border-solid border-black bg-black" />
         </div>
-
-        <div class="flex justify-end py-5">
-          <p class="flex text-5xl text-[#d92d3c]">DÉCOUVRIR</p>
+        <div class="flex text-right items-start justify-end py-5">
+          <p class="float-right text-right text-5xl text-[#d92d3c]">DÉCOUVRIR</p>
         </div>
       </div>
     </div>
