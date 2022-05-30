@@ -1,16 +1,12 @@
 <template>
-  
-  <main>
-    <img src="image-3.png" class="h-[1014px] w-[1450px] object-cover" />
-
-    <div class="flex w-[560px] items-start justify-start gap-2.5 p-2.5">
-      <div class="relative flex flex-grow items-start justify-start gap-2.5 rounded-[25px] border-2 border-red-600 bg-white px-[35px] py-1">
-        <p class="w-[470px] flex-grow text-center text-[80px] font-bold text-red-600">
-          <span class="w-[470px] flex-grow text-center text-[80px] font-bold text-red-600">Mentions</span><br /><span
-            class="w-[470px] flex-grow text-center text-[80px] font-bold text-red-600"
-            >Légales</span
-          >
-        </p>
+  <div class="flex flex-col">
+    <div class="flex">
+      <img src="../../images/image-3.webp" class="w-full" />
+    </div>
+    <!-- Changement de page pour correction à la maquette : plus de card ici -->
+    <div class="flex items-center justify-center gap-2.5 p-2.5">
+      <div class="mx-[5rem] mt-[-70px] flex rounded-[25px] border-2 border-red-600 bg-white px-[35px] py-1">
+        <h2 class="relative text-center font-alegreya-sans text-[80px] font-bold text-red-600">Mentions <br/> légales</h2>
       </div>
     </div>
     <div class="relative flex w-[1350px] flex-col items-start justify-start gap-2.5 p-2.5">
@@ -389,9 +385,7 @@
         >
       </p>
     </div>
-  </main>
-  
+  </div>
 </template>
 <script>
-
 </script>
