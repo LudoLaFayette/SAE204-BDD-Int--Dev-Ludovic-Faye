@@ -8,11 +8,11 @@
     <div class="flex justify-center py-20">
       <Play></Play>
     </div>
-    <div class="flex justify-center py-20">
+    <div class="flex w-10 justify-center py-20">
       <FlecheBas></FlecheBas>
     </div>
 
-    <div class="flex items-start justify-start p-2.5">
+    <div class="flex items-center justify-center p-2.5">
       <p class="flex text-center text-6xl text-white">
         Bienvenue au festival AUX’HALLES, un festival dans les halles de Sens, dans l’Yonne, à une heure de Auxerre par le nord. Un festival
         de musique de type varéiété francaise dans un cadre unique, un hall de marché.
@@ -35,8 +35,8 @@
         <div class="flex">
           <hr class="flex w-[1000px] border-2 border-solid border-black bg-black" />
         </div>
-        <div class="flex text-right items-start justify-end py-5">
-          <p class="float-right text-right text-5xl text-[#d92d3c]">DÉCOUVRIR</p>
+        <div class="flex">
+          <p class="ml-[730px] flex py-5 text-right text-5xl text-[#d92d3c]">DÉCOUVRIR</p>
         </div>
       </div>
     </div>
@@ -53,19 +53,9 @@
           vous emmener dans le saint gr’halles de la musique.
         </p>
       </div>
-      <div class="relative flex flex-shrink-0 flex-grow-0 flex-col items-center justify-center gap-2.5 self-stretch">
-        <svg
-          width="936"
-          height="1"
-          viewBox="0 0 936 1"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          class="flex-shrink-0 flex-grow-0 self-stretch"
-          preserveAspectRatio="none"
-        >
-          <line y1="0.75" x2="936" y2="0.75" stroke="black" stroke-width="0.5"></line>
-        </svg>
-      </div>
+      <div class="flex">
+          <hr class="flex w-[1000px] border-2 border-solid border-black bg-black" />
+        </div>
       <div class="relative flex flex-shrink-0 flex-grow-0 items-center justify-end gap-2.5 self-stretch pr-[30px] pb-[5px]">
         <p class="w-[906px] flex-grow text-right text-5xl text-[#d92d3c]">DÉCOUVRIR</p>
       </div>
@@ -83,19 +73,9 @@
           et aimez le lieu unique de ce festival.
         </p>
       </div>
-      <div class="relative flex flex-shrink-0 flex-grow-0 flex-col items-start justify-start gap-2.5 self-stretch pt-2.5">
-        <svg
-          width="936"
-          height="1"
-          viewBox="0 0 936 1"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          class="flex-shrink-0 flex-grow-0 self-stretch"
-          preserveAspectRatio="none"
-        >
-          <line y1="0.75" x2="936" y2="0.75" stroke="black" stroke-width="0.5"></line>
-        </svg>
-      </div>
+      <div class="flex">
+          <hr class="flex w-[1000px] border-2 border-solid border-black bg-black" />
+        </div>
       <div class="relative flex flex-shrink-0 flex-grow-0 items-center justify-end gap-2.5 self-stretch pr-[30px] pb-[5px]">
         <p class="w-[906px] flex-grow text-right text-5xl text-[#d92d3c]">DÉCOUVRIR</p>
       </div>
