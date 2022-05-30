@@ -1,10 +1,10 @@
 <template>
-  <div class="flex flex-col ">
+  <div class="flex flex-col bg-gradient-to-b from-grey-gradient to-red-700">
     <div class="flex w-[1120px] gap-2.5 p-2.5">
-      <p class="w-[1100px] flex-grow justify-center text-center text-[100px] italic text-white">
+      <p class="w-[1100px] flex  text-white text-center">
         <span class="w-[1100px] flex-grow text-center text-[100px] italic text-white"
           >“Un fesitival qui a des “h’ailles”. Un cadre unique tant historique.</span
-        ><br /><span class="w-[1100px] flex-grow text-center text-[100px] italic text-white">Profitez de la variété offerte”</span>
+        ><span class="w-[1100px] flex-grow text-center text-[100px] italic text-white">Profitez de la variété offerte”</span>
       </p>
     </div>
     <Play></Play>

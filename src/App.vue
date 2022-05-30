@@ -7,7 +7,7 @@
     </div>
     <hr class="border-color-900 border-10px] border-solid bg-slate-900/80" />
   </header>
-  <main class="bg-gradient-to-b from-grey-gradient to-red-700">
+  <main class="">
     <RouterView />
   </main>
   <footer>
