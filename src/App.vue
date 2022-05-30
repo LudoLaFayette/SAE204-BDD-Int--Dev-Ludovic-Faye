@@ -1,13 +1,13 @@
 <template>
   <header>
-    <div class="flex bg-[#A8A29E]">
+    <div class="flex bg-[#A8A29E] sticky">
       <Logo ></Logo>
       <p class="custom-font flex-grow text-center text-8xl font-bold text-[#801e1e]">AUX’HALLES</p>
       <MenuH></MenuH>
     </div>
-    <hr class="border-color-900 border-10px] border-solid bg-slate-900/80" />
+    <hr class="border-color-900 border-[10px] border-solid bg-slate-900/80" />
   </header>
-  <main class="">
+  <main>
     <RouterView />
   </main>
   <footer>

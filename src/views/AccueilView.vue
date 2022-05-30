@@ -7,47 +7,38 @@
     </div>
     <div class="flex justify-center py-20">
       <Play></Play>
-       
     </div>
     <div class="flex justify-center py-20">
       <FlecheBas></FlecheBas>
     </div>
 
-   
-    <div class="flex w-[829px] items-start justify-start gap-2.5 p-2.5">
-      <p class="w-[809px] flex-grow text-center text-6xl text-white">
+    <div class="flex items-start justify-start p-2.5">
+      <p class="flex text-center text-6xl text-white">
         Bienvenue au festival AUX’HALLES, un festival dans les halles de Sens, dans l’Yonne, à une heure de Auxerre par le nord. Un festival
         de musique de type varéiété francaise dans un cadre unique, un hall de marché.
       </p>
     </div>
 
-    <div
-      class="relative flex h-[1232px] w-[936px] flex-col items-start justify-start gap-[50px] rounded-[35px] bg-white"
-      style="box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5)"
-    >
-      <img src="../../images/Image-1-1.webp" class="flex-grow self-stretch rounded-tl-[35px] rounded-tr-[35px] object-cover" />
-      <p class="w-[936px] flex-shrink-0 flex-grow-0 self-stretch text-left text-[80px] text-black">Concerts</p>
-      <div class="relative flex flex-shrink-0 flex-grow-0 items-center justify-center gap-2.5 self-stretch px-2.5">
-        <p class="w-[916px] flex-grow text-left text-[52px] text-black">
-          Voici les concerts qui vont se proposer dans les jours qui vont arriver. Profitez et découvrez la variété française comme vous ne
-          l’avez jamais vu auparavent.
-        </p>
-      </div>
-      <div class="relative flex flex-shrink-0 flex-grow-0 flex-col items-end justify-center gap-2.5 self-stretch pt-2.5">
-        <svg
-          width="936"
-          height="1"
-          viewBox="0 0 936 1"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          class="flex-shrink-0 flex-grow-0 self-stretch"
-          preserveAspectRatio="none"
-        >
-          <line y1="0.75" x2="936" y2="0.75" stroke="black" stroke-width="0.5"></line>
-        </svg>
-      </div>
-      <div class="relative flex h-[26px] flex-shrink-0 flex-grow-0 items-center justify-end self-stretch pr-[30px] pb-5">
-        <p class="h-[9px] w-[906px] flex-grow text-right text-5xl text-[#d92d3c]">DÉCOUVRIR</p>
+    <div class="flex justify-center py-20">
+      <div
+        class="flex h-[1500px] w-[936px] flex-col items-start justify-start gap-[50px] rounded-[35px] bg-white"
+        style="box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5)"
+      >
+        <img src="../../images/Image-1-1.webp" class="flex-grow rounded-tl-[35px] rounded-tr-[35px]" />
+        <p class="w-[936px] flex-shrink-0 flex-grow-0 self-stretch text-left text-[80px] text-black">Concerts</p>
+        <div class="flex flex-shrink-0 flex-grow-0 items-center justify-center gap-2.5 self-stretch px-2.5">
+          <p class="w-[916px] flex-grow text-left text-[52px] text-black">
+            Voici les concerts qui vont se proposer dans les jours qui vont arriver. Profitez et découvrez la variété française comme vous
+            ne l’avez jamais vu auparavent.
+          </p>
+        </div>
+        <div class="flex">
+          <hr class="flex w-[1500px] border-4 border-solid border-black bg-black" />
+        </div>
+
+        <div class="flex flex-shrink-0 flex-grow-0 items-center justify-end self-stretch pr-[30px] pb-5">
+          <p class="flex text-right text-5xl text-[#d92d3c]">DÉCOUVRIR</p>
+        </div>
       </div>
     </div>
 
