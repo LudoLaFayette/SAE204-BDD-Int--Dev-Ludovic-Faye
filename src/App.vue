@@ -1,48 +1,48 @@
 <template>
   <header>
-    <div class="flex bg-[#A8A29E] sticky">
-      <Logo ></Logo>
+    <div class="sticky flex bg-[#A8A29E] sm:flex md:flex">
+      <Logo></Logo>
       <p class="custom-font flex-grow text-center text-8xl font-bold text-[#801e1e]">AUX’HALLES</p>
       <MenuH></MenuH>
     </div>
-    <hr class=" border-[10px] border-solid bg-slate-900 border-slate-900" />
+    <hr class="border-[10px] border-solid border-slate-900 bg-slate-900" />
   </header>
   <main>
     <RouterView />
   </main>
   <footer>
     <div class="flex">
-      <div class="h-[1312px] w-[1449px] bg-[#b1aca9]">
+      <div class="bg-[#b1aca9]">
         <div class="flex w-[486.93px] items-center justify-center gap-5 px-2.5 pt-2.5 pb-[30px]">
           <p class="w-[466.93px] flex-grow text-left text-[100px] font-bold text-[#801e1e]">Le Festival</p>
         </div>
-        <div class=" flex w-[490.85px] flex-col items-start justify-center gap-5">
-          <p class="w-[490.85px] flex-shrink-0 flex-grow-0 self-stretch text-left text-[64px] font-light text-black">Les concerts</p>
-          <p class="w-[490.85px] flex-shrink-0 flex-grow-0 self-stretch text-left text-[64px] font-light text-black">Les artistes</p>
-          <p class="w-[490.85px] flex-shrink-0 flex-grow-0 self-stretch text-left text-[64px] font-light text-black">Notre histoire</p>
-          <p class="flex-shrink-0 flex-grow-0 text-left text-[64px] font-light text-black">Mentions légales</p>
+        <div class="flex flex-col items-start justify-center gap-5">
+          <p class="text-left text-[64px] font-light text-black">Les concerts</p>
+          <p class="text-left text-[64px] font-light text-black">Les artistes</p>
+          <p class="text-left text-[64px] font-light text-black">Notre histoire</p>
+          <p class="text-left text-[64px] font-light text-black">Mentions légales</p>
         </div>
-        <div class=" flex w-[530.12px] items-center justify-center gap-2.5 p-2.5">
-          <p class="w-[510.12px] flex-grow text-left text-[100px] font-bold text-[#801e1e]">Nous contacter</p>
+        <div class="flex items-center justify-center gap-2.5 p-2.5">
+          <p class="flex text-left text-[100px] font-bold text-[#801e1e]">Nous contacter</p>
         </div>
-        <div class=" flex w-[490.85px] flex-col items-start justify-center gap-2.5">
-          <p class="w-[490.85px] flex-shrink-0 flex-grow-0 self-stretch text-left text-[64px] italic text-black">
-            <span class="w-[490.85px] flex-shrink-0 flex-grow-0 self-stretch text-left text-[64px] italic text-black"
+        <div class="flex  flex-col items-start justify-center gap-2.5">
+          <p class="  text-left text-[64px] italic text-black">
+            <span class="  text-left text-[64px] italic text-black"
               >Les Halles de sens</span
-            ><br /><span class="w-[490.85px] flex-shrink-0 flex-grow-0 self-stretch text-left text-[64px] italic text-black"
+            ><br /><span class=" text-left text-[64px] italic text-black"
               >Place de la République</span
-            ><br /><span class="w-[490.85px] flex-shrink-0 flex-grow-0 self-stretch text-left text-[64px] italic text-black"
+            ><br /><span class=" text-left text-[64px] italic text-black"
               >89100, Sens</span
-            ><br /><span class="w-[490.85px] flex-shrink-0 flex-grow-0 self-stretch text-left text-[64px] italic text-black"
+            ><br /><span class=" text-left text-[64px] italic text-black"
               >03 86 64 00 50</span
             >
           </p>
-          <p class="w-[490.85px] flex-shrink-0 flex-grow-0 self-stretch text-left text-[64px] font-light text-black">
+          <p class=" text-left text-[64px] font-light text-black">
             Formulaire de contact
           </p>
         </div>
-        <div class=" flex w-[592.95px] items-center justify-center gap-2.5 p-2.5">
-          <p class="w-[572.95px] flex-grow text-left text-[50px] font-bold text-[#801e1e]">Nos réseaux sociaux</p>
+        <div class="flex items-center justify-center gap-2.5 p-2.5">
+          <p class=" flex text-left text-[50px] font-bold text-[#801e1e]">Nos réseaux sociaux</p>
         </div>
         <Social></Social>
       </div>
