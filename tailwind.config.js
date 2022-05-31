@@ -10,8 +10,14 @@ module.exports = {
         // Ici vos couleurs exportées de Figma
       },
       "fontSize": {
-        "base": "5.625rem",
-        "lg": "6rem"
+        "base": "1rem",
+        "md": "1.25rem",
+        "md2": "1.5rem",
+        "lg": "2rem",
+        "lg1": "2.5rem",
+        "lg2": "3rem",
+        "xl": "5rem",
+        "xl2": "6rem",
        },
        "fontFamily": {
         "happy-times-at-the-ikob-new-game-plus-edition": "Happy Times at the IKOB New Game Plus Edition",
