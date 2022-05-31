@@ -1,8 +1,8 @@
 <template>
   <header class="sticky">
-    <div class="flex bg-[#A8A29E] sm:flex md:flex">
+    <div class="flex bg-[#A8A29E] justify-between sm:flex md:flex">
       <Logo></Logo>
-      <p class="flex-grow text-center font-happy-times-at-the-ikob-new-game-plus-edition text-8xl font-bold text-[#801e1e]">AUX’HALLES</p>
+      <p class="flex text-center font-happy-times-at-the-ikob-new-game-plus-edition text-8xl font-bold text-[#801e1e] sm:hidden md:flex">AUX’HALLES</p>
       <MenuH></MenuH>
     </div>
     <hr class="border-[10px] border-solid border-slate-900 bg-slate-900" />
