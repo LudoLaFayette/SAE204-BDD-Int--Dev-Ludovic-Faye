@@ -12,7 +12,7 @@
         </h2>
       </div>
     </div>
-    <div class="flex flex-col items-center justify-center gap-2.5 p-2.5 text-center">
+    <div class="flex flex-col items-center font-alegreya-sans justify-center gap-2.5 p-2.5 text-center">
       <p class="text-left font-alegreya-sans text-3xl text-black">
         Client : tout professionnel ou personne physique capable au sens des articles 1123 et suivants du Code civil, ou personne morale,
         qui visite le Site objet des présentes conditions générales. <br />
