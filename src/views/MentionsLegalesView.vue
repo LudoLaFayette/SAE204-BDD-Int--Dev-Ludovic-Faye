@@ -6,14 +6,14 @@
     <!-- Changement de page pour correction à la maquette : plus de card ici -->
     <div class="flex items-center justify-center gap-2.5 p-2.5">
       <div class="mx-[5rem] mt-[-70px] flex rounded-[25px] border-2 border-red-600 bg-white px-[35px] py-1">
-        <h2 class="relative text-center font-alegreya-sans text-[80px] font-bold text-red-600">
+        <h2 class="relative text-center md:text-[60px] font-alegreya-sans text-[16px] font-bold text-red-600 ">
           Mentions <br />
           légales
         </h2>
       </div>
     </div>
     <div class="flex flex-col items-center font-alegreya-sans justify-center gap-2.5 p-2.5 text-center">
-      <p class="text-left font-alegreya-sans text-3xl text-black">
+      <p class="text-left text-[16px] md:text-[20px] font-alegreya-sans text-3xl text-black px-10">
         Client : tout professionnel ou personne physique capable au sens des articles 1123 et suivants du Code civil, ou personne morale,
         qui visite le Site objet des présentes conditions générales. <br />
         Prestations et Services : https://AuxHalles.lfaye.fr met à disposition des Clients : <br /><br />Contenu : Ensemble des éléments
@@ -26,10 +26,11 @@
         termes « données à caractère personnel », « personne concernée », « sous traitant » et « données sensibles » ont le sens défini par
         le Règlement Général sur la Protection des Données (RGPD : n° 2016-679) <br /><br />
       </p>
+      
 
-      <h2>1. Présentation du site internet</h2>
+      <h2 class="font-alegreya-sans lg:text-6xl md:text-4xl text-2xl font-bold" >1. Présentation du site internet</h2>
       <br /><br />
-      <p class="text-left font-alegreya-sans text-3xl text-black">
+      <p class="text-left text-[16px] md:text-[20px] font-alegreya-sans text-3xl text-black px-10">
         En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, il est précisé aux
         utilisateurs du site internet https://AuxHalles.lfaye.fr l'identité des différents intervenants dans le cadre de sa réalisation et
         de son suivi: <br /><br />Propriétaire : Département MMi – 4, place Tharradin 25 200 Montbéliard <br />Responsable publication :
@@ -38,9 +39,9 @@
         la protection des données : Ludovic Faye – ludovicfaye89@gmail.com <br /><br />
       </p>
 
-      <h2>2. Conditions générales d’utilisation du site et des services proposés</h2>
+      <h2 class="font-alegreya-sans lg:text-6xl md:text-4xl text-2xl font-bold" >2. Conditions générales d’utilisation du site et des services proposés</h2>
 
-      <p class="text-left font-alegreya-sans text-3xl text-black">
+      <p class="text-left text-[16px] md:text-[20px] font-alegreya-sans text-3xl text-black px-10">
         Le Site constitue une œuvre de l’esprit protégée par les dispositions du Code de la Propriété Intellectuelle et des Réglementations
         Internationales applicables. Le Client ne peut en aucune manière réutiliser, céder ou exploiter pour son propre compte tout ou
         partie des éléments ou travaux du Site.<br /><br />
@@ -54,9 +55,9 @@
         s’imposent néanmoins à l’utilisateur qui est invité à s’y référer le plus souvent possible afin d’en prendre connaissance.<br /><br />
       </p>
 
-      <h2>3. Description des services fournis</h2>
+      <h2 class="font-alegreya-sans lg:text-6xl md:text-4xl text-2xl font-bold" >3. Description des services fournis</h2>
 
-      <p class="text-left font-alegreya-sans text-3xl text-black">
+      <p class="text-left text-[16px] md:text-[20px] font-alegreya-sans text-3xl text-black px-10">
         Le site internet https://AuxHalles.lfaye.fr a pour objet de fournir une information concernant l’ensemble des activités de la
         société. https://AuxHalles.lfaye.fr s’efforce de fournir sur le site https://AuxHalles.lfaye.fr des informations aussi précises que
         possible. Toutefois, il ne pourra être tenu responsable des oublis, des inexactitudes et des carences dans la mise à jour, qu’elles
@@ -66,9 +67,9 @@
         sous réserve de modifications ayant été apportées depuis leur mise en ligne.<br /><br />
       </p>
 
-      <h2>4. Limitations contractuelles sur les données techniques</h2>
+      <h2 class="font-alegreya-sans lg:text-6xl md:text-4xl text-2xl font-bold" >4. Limitations contractuelles sur les données techniques</h2>
 
-      <p class="text-left font-alegreya-sans text-3xl text-black">
+      <p class="text-left text-[16px] md:text-[20px] font-alegreya-sans text-3xl text-black px-10">
         Le site utilise la technologie JavaScript. Le site Internet ne pourra être tenu responsable de dommages matériels liés à
         l’utilisation du site. De plus, l’utilisateur du site s’engage à accéder au site en utilisant un matériel récent, ne contenant pas
         de virus et avec un navigateur de dernière génération mis-à-jour Le site https://AuxHalles.lfaye.fr est hébergé chez un prestataire
@@ -83,9 +84,9 @@
         serveur. <br /><br />
       </p>
 
-      <h2>5. Propriété intellectuelle et contrefaçons.</h2>
+      <h2 class="font-alegreya-sans lg:text-6xl md:text-4xl text-2xl font-bold" >5. Propriété intellectuelle et contrefaçons.</h2>
 
-      <p class="text-left font-alegreya-sans text-3xl text-black">
+      <p class="text-left text-[16px] md:text-[20px] font-alegreya-sans text-3xl text-black px-10">
         https://AuxHalles.lfaye.fr est propriétaire des droits de propriété intellectuelle et détient les droits d’usage sur tous les
         éléments accessibles sur le site internet, notamment les textes, images, graphismes, logos, vidéos, icônes et sons. Toute
         reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen
@@ -95,9 +96,9 @@
         <br /><br />
       </p>
 
-      <h2>6. Limitations de responsabilité</h2>
+      <h2 class="font-alegreya-sans lg:text-6xl md:text-4xl text-2xl font-bold" >6. Limitations de responsabilité</h2>
 
-      <p class="text-left font-alegreya-sans text-3xl text-black">
+      <p class="text-left text-[16px] md:text-[20px] font-alegreya-sans text-3xl text-black px-10">
         https://AuxHalles.lfaye.fr agit en tant qu’éditeur du site. https://AuxHalles.lfaye.fr est responsable de la qualité et de la
         véracité du Contenu qu’il publie.<br /><br />
         https://AuxHalles.lfaye.fr ne pourra être tenu responsable des dommages directs et indirects causés au matériel de l’utilisateur,
@@ -112,17 +113,18 @@
         également la possibilité de mettre en cause la responsabilité civile et/ou pénale de l’utilisateur, notamment en cas de message à
         caractère raciste, injurieux, diffamant, ou pornographique, quel que soit le support utilisé (texte, photographie …). <br /><br />
       </p>
-      <h2>7. Gestion des données personnelles</h2>
 
-      <p class="text-left font-alegreya-sans text-3xl text-black">
+      <h2 class="font-alegreya-sans lg:text-6xl md:text-4xl text-2xl font-bold" >7. Gestion des données personnelles</h2>
+
+      <p class="text-left text-[16px] md:text-[20px] font-alegreya-sans text-3xl text-black px-10">
         Le Client est informé des réglementations concernant la communication marketing, la loi du 21 Juin 2014 pour la confiance dans
         l’Economie Numérique, la Loi Informatique et Liberté du 06 Août 2004 ainsi que du Règlement Général sur la Protection des Données
         (RGPD : n° 2016-679).<br /><br />
       </p>
 
-      <h3>7.1 Responsables de la collecte des données personnelles</h3>
+      <h3 class="font-alegreya-sans lg:text-6xl md:text-4xl text-2xl font-bold">7.1 Responsables de la collecte des données personnelles</h3>
 
-      <p class="text-left font-alegreya-sans text-3xl text-black">
+      <p class="text-left text-[16px] md:text-[20px] font-alegreya-sans text-3xl text-black px-10">
         Pour les Données Personnelles collectées dans le cadre de la création du compte personnel de l’Utilisateur et de sa navigation sur
         le Site, le responsable du traitement des Données Personnelles est : Département MMi. https://AuxHalles.lfaye.frest représenté par
         Ludovic Faye, son représentant légal <br /><br />En tant que responsable du traitement des données qu’il collecte,
@@ -134,9 +136,9 @@
         pour lesquelles https://AuxHalles.lfaye.fr les traite.<br /><br />
       </p>
 
-      <h3>7.2 Finalité des données collectées</h3>
+      <h3 class="font-alegreya-sans lg:text-6xl md:text-4xl text-2xl font-bold">7.2 Finalité des données collectées</h3>
 
-      <p class="text-left font-alegreya-sans text-3xl text-black">
+      <p class="text-left text-[16px] md:text-[20px] font-alegreya-sans text-3xl text-black px-10">
         https://AuxHalles.lfaye.fr est susceptible de traiter tout ou partie des données : <br /><br />pour permettre la navigation sur le
         Site et la gestion et la traçabilité des prestations et services commandés par l’utilisateur : données de connexion et d’utilisation
         du Site, facturation, historique des commandes, etc.<br /><br />pour prévenir et lutter contre la fraude informatique (spamming,
@@ -147,9 +149,9 @@
         utilisées par nécessité ou à des fins statistiques et d’analyses.
       </p>
 
-      <h3>7.3 Droit d’accès, de rectification et d’opposition</h3>
+      <h3 class="font-alegreya-sans lg:text-6xl md:text-4xl text-2xl font-bold">7.3 Droit d’accès, de rectification et d’opposition</h3>
 
-      <p class="text-left font-alegreya-sans text-3xl text-black">
+      <p class="text-left text-[16px] md:text-[20px] font-alegreya-sans text-3xl text-black px-10">
         Conformément à la réglementation européenne en vigueur, les Utilisateurs de https://AuxHalles.lfaye.fr disposent des droits suivants
         : <br /><br />droit d'accès (article 15 RGPD) et de rectification (article 16 RGPD), de mise à jour, de complétude des données des
         Utilisateurs droit de verrouillage ou d’effacement des données des Utilisateurs à caractère personnel (article 17 du RGPD),
@@ -174,9 +176,9 @@
         et notamment de la CNIL (https://www.cnil.fr/fr/plaintes). <br /><br />
       </p>
 
-      <h3>7.4 Non-communication des données personnelles</h3>
+      <h3 class="font-alegreya-sans lg:text-6xl md:text-4xl text-2xl font-bold">7.4 Non-communication des données personnelles</h3>
 
-      <p class="text-left font-alegreya-sans text-3xl text-black">
+      <p class="text-left text-[16px] md:text-[20px] font-alegreya-sans text-3xl text-black px-10">
         https://AuxHalles.lfaye.fr s’interdit de traiter, héberger ou transférer les Informations collectées sur ses Clients vers un pays
         situé en dehors de l’Union européenne ou reconnu comme « non adéquat » par la Commission européenne sans en informer préalablement
         le client. Pour autant, https://AuxHalles.lfaye.fr reste libre du choix de ses sous-traitants techniques et commerciaux à la
@@ -193,8 +195,8 @@
         https://AuxHalles.lfaye.fr sont principalement les agents de notre service client.<br /><br />
       </p>
 
-      <h2>8. Notification d’incident</h2>
-      <p class="text-left font-alegreya-sans text-3xl text-black">
+      <h2 class="font-alegreya-sans lg:text-6xl md:text-4xl text-2xl font-bold">8. Notification d’incident</h2>
+      <p class="text-left text-[16px] md:text-[20px] font-alegreya-sans text-3xl text-black px-10">
         Quels que soient les efforts fournis, aucune méthode de transmission sur Internet et aucune méthode de stockage électronique n'est
         complètement sûre. Nous ne pouvons en conséquence pas garantir une sécurité absolue. Si nous prenions connaissance d'une brèche de
         la sécurité, nous avertirions les utilisateurs concernés afin qu'ils puissent prendre les mesures appropriées. Nos procédures de
@@ -212,8 +214,8 @@
         https://AuxHalles.lfaye.frprend toutes les mesures raisonnables visant à les protéger contre toute perte, utilisation détournée,
         accès non autorisé, divulgation, altération ou destruction.
       </p>
-      <h2>9. Liens hypertextes « cookies » et balises (“tags”) internet</h2>
-      <p class="text-left font-alegreya-sans text-3xl text-black">
+      <h2 class="font-alegreya-sans lg:text-6xl md:text-4xl text-2xl font-bold">9. Liens hypertextes « cookies » et balises (“tags”) internet</h2>
+      <p class="text-left text-[16px] md:text-[20px] font-alegreya-sans text-3xl text-black px-10">
         Le site https://AuxHalles.lfaye.fr contient un certain nombre de liens hypertextes vers d’autres sites, mis en place avec
         l’autorisation de https://AuxHalles.lfaye.fr. Cependant, https://AuxHalles.lfaye.fr n’a pas la possibilité de vérifier le contenu
         des sites ainsi visités, et n’assumera en conséquence aucune responsabilité de ce fait. <br /><br />Sauf si vous décidez de
@@ -221,8 +223,8 @@
         gratuitement à partir des possibilités de désactivation qui vous sont offertes et rappelées ci-après, sachant que cela peut réduire
         ou empêcher l’accessibilité à tout ou partie des Services proposés par le site. Les cookies sont enregistré pour une durée 9 mois.
       </p>
-      <h3>9.1. « COOKIES »</h3>
-      <p class="text-left font-alegreya-sans text-3xl text-black">
+      <h3 class="font-alegreya-sans lg:text-6xl md:text-4xl text-2xl font-bold">9.1. « COOKIES »</h3>
+      <p class="text-left text-[16px] md:text-[20px] font-alegreya-sans text-3xl text-black px-10">
         Un « cookie » est un petit fichier d’information envoyé sur le navigateur de l’Utilisateur et enregistré au sein du terminal de
         l’Utilisateur (ex : ordinateur, smartphone), (ci-après « Cookies »). Ce fichier comprend des informations telles que le nom de
         domaine de l’Utilisateur, le fournisseur d’accès Internet de l’Utilisateur, le système d’exploitation de l’Utilisateur, ainsi que la
@@ -257,9 +259,9 @@
         l’application mobile de https://AuxHalles.lfaye.fr. À tout moment, l’Utilisateur peut néanmoins revenir sur son consentement à ce
         que https://AuxHalles.lfaye.fr dépose ce type de cookies. <br /><br />
       </p>
-      <h3>Article 9.2. BALISES (“TAGS”) INTERNET</h3>
+      <h3 class="font-alegreya-sans lg:text-6xl md:text-4xl text-2xl font-bold">Article 9.2. BALISES (“TAGS”) INTERNET</h3>
 
-      <p class="text-left font-alegreya-sans text-3xl text-black">
+      <p class="text-left text-[16px] md:text-[20px] font-alegreya-sans text-3xl text-black px-10">
         https://AuxHalles.lfaye.fr peut employer occasionnellement des balises Internet (également appelées « tags », ou balises d’action,
         GIF à un pixel, GIF transparents, GIF invisibles et GIF un à un) et les déployer par l’intermédiaire d’un partenaire spécialiste
         d’analyses Web susceptible de se trouver (et donc de stocker les informations correspondantes, y compris l’adresse IP de
@@ -275,9 +277,9 @@
         services relatifs à l’utilisation de celui-ci et d’Internet. <br /><br />
       </p>
 
-      <h2>10. Droit applicable et attribution de juridiction.</h2>
+      <h2 class="font-alegreya-sans lg:text-6xl md:text-4xl text-2xl font-bold">10. Droit applicable et attribution de juridiction.</h2>
 
-      <p class="text-left font-alegreya-sans text-3xl text-black">
+      <p class="text-left text-[16px] md:text-[20px] font-alegreya-sans text-3xl text-black px-10">
         Tout litige en relation avec l’utilisation du site https://AuxHalles.lfaye.fr est soumis au droit français. En dehors des cas où la
         loi ne le permet pas, il est fait attribution exclusive de juridiction aux tribunaux compétents de Montbéliard
       </p>

@@ -1,12 +1,35 @@
 <template>
-  <header class="sticky">
+  <header class="sticky ">
     <div class="flex justify-between bg-[#A8A29E] sm:flex md:flex">
       <Logo></Logo>
       <h1 class="hidden text-center font-happy-times-at-the-ikob-new-game-plus-edition font-bold text-[#801e1e] lg:flex lg:text-xl">
         AUX’HALLES
       </h1>
-      <MenuH></MenuH>
+       <span class=" cursor-pointer  block w-8 h-8   mx-4  ">
+        <MenuH class=" text-white py-2"  aria-controls="menu"
+        :aria-expanded="menuOuvert"
+        @click="menuOuvert = !menuOuvert">
+        </MenuH>
+        <span class="sr-only hidden ">Menu</span>
+      </span>
     </div>
+    <ul id="menu" v-if="menuOuvert" class=" text-black bg-[#A8A29E] font-alegreya-sans md:text-lg text-2xl  py-4 text-center" >
+        <li class="my-8"> 
+          <RouterLink class="my-8 lg:px-4 xl:pt-2 xl:rounded-sm hover:bg-white hover:text-black " to="/">Accueil</RouterLink>
+        </li>
+        <li class="my-8">
+          <RouterLink class="my-8 lg:px-4 xl:pt-2 xl:rounded-sm hover:bg-white hover:text-black" to="/concertListe">Liste des Concerts</RouterLink>
+        </li>
+        <li class="my-8">
+          <RouterLink class="my-8 lg:px-4 xl:pt-2 xl:rounded-sm hover:bg-white hover:text-black " to="/artisteListe">Liste des Artistes</RouterLink>
+        </li>
+        <li class="my-8">
+          <RouterLink class="my-8 lg:px-4 xl:pt-2 xl:rounded-sm hover:bg-white hover:text-black " to="/histoire">Histoire</RouterLink>
+        </li>
+        <li class="my-8">
+          <RouterLink class="my-8 lg:px-4 xl:pt-2 xl:rounded-sm hover:bg-white hover:text-black " to="/contact">Nous contacter</RouterLink>
+        </li>
+      </ul>
     <hr class="border-[10px] border-solid border-slate-900 bg-slate-900" />
   </header>
   <main class="">
@@ -17,10 +40,10 @@
       <div class="flex flex-col">
         <h2 class="font-alegreya-sans text-2xl font-bold text-[#801e1e] md:text-4xl lg:text-6xl">Le Festival</h2>
         <ul class="my-10 flex flex-col font-alegreya-sans text-base font-light md:text-3xl">
-          <li class="my-4"><RouterLink to="">Les concerts</RouterLink></li>
-          <li class="my-4"><RouterLink to="">Les artistes</RouterLink></li>
-          <li class="my-4"><RouterLink to="">Notre histoire</RouterLink></li>
-          <li class="my-4"><RouterLink to="">Mentions légales </RouterLink></li>
+          <li class="my-4"><RouterLink to="/concertListe">Les concerts</RouterLink></li>
+          <li class="my-4"><RouterLink to="/artisteListe">Les artistes</RouterLink></li>
+          <li class="my-4"><RouterLink to="/histoire">Notre histoire</RouterLink></li>
+          <li class="my-4"><RouterLink to="/mentions">Mentions légales </RouterLink></li>
         </ul>
       </div>
 
@@ -112,7 +135,16 @@ import Arrowdown from "./components/icons/FlecheBasView.vue";
 import Social from "./components/icons/SocialView.vue";
 export default {
   name: "App",
-  components: { Logo, MenuH, Play, Arrowdown, Social },
+  components: { Logo, MenuH, Play, Arrowdown, Social, },
+  data() {
+    return {
+      menuOuvert: false,
+    };
+    
+    },
+    beforeMount(){
+    this.$router.afterEach(() => (this.menuOuvert = false));
+  }
 };
 </script>
 <style>

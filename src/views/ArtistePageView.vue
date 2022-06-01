@@ -6,11 +6,11 @@
     <!-- Changement de page pour correction à la maquette : plus de card ici -->
     <div class="flex items-center justify-center gap-2.5 p-2.5">
       <div class="mx-[5rem] mt-[-70px] flex rounded-[25px] border-2 border-red-600 bg-white px-[35px] py-1">
-        <h2 class="relative text-center font-alegreya-sans text-[80px] font-bold text-red-600">Yyes Jamait</h2>
+        <h2 class="relative text-center font-alegreya-sans lg:text-8xl md:text-6xl text-2xl font-bold text-red-600">Yyes Jamait</h2>
       </div>
     </div>
     <div class="flex flex-col gap-2 m-auto justify-center">
-      <p class="flex mx-7 my-7 leading-normal font-alegreya-sans">
+      <p class="flex mx-7 my-7 leading-normal text-2xl font-alegreya-sans">
         Courte Biographie de Yves Jamait : Yves Jamait est né à Dijon en 1961. Il se destine tout d’abord à la cuisine, exerce plusieurs
         métiers, tout en s’adonnant à la guitare. C'est en 2001 qu'il sort son premier album De Verre en Vers avec son trio sous le nom
         deJamait . Repéré très vite pour ses talents d’écriture,Yves Jamait reçoit un accueil chaleureux du public et sort son 2éme album Le

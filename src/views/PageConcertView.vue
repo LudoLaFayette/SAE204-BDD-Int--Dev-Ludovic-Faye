@@ -6,7 +6,7 @@
     <!-- Changement de page pour correction à la maquette : plus de card ici -->
     <div class="flex items-center justify-center p-2.5">
       <div class="mx-[5rem] mt-[-70px] flex rounded-[25px] border-2 border-red-600 bg-white px-[35px] py-1">
-        <h2 class="relative text-center font-alegreya-sans text-[80px] font-bold text-red-600">"Jamait Ici"</h2>
+        <h2 class="relative text-center font-alegreya-sans lg:text-8xl md:text-6xl text-2xl font-bold text-red-600">"Jamait Ici"</h2>
       </div>
     </div>
     <div class="flex items-center justify-center p-[40px] gap-[80px]">

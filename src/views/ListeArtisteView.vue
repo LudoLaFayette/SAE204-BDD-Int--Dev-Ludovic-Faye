@@ -4,28 +4,28 @@
 
     <div class="flex items-center justify-center gap-2.5 p-2.5">
       <div class="mx-[5rem] mt-[-70px] flex rounded-[25px] border-2 border-red-600 bg-white px-[35px] py-1">
-        <h2 class="text-center font-alegreya-sans text-[80px] font-bold text-red-600">
+        <h2 class="text-center font-alegreya-sans lg:text-8xl md:text-6xl text-2xl font-bold text-red-600">
           Liste des <br />
           Concerts
         </h2>
       </div>
     </div>
 
-    <p class="flex text-center text-6xl text-zinc-900 mt-6">
+    <p class="flex text-center md:text-4xl text-2xl text-zinc-900 mt-6">
       Voici la partie du site ou vous pourrez choisir le concert auxquel vous voulez réserver votre place :
     </p>
 
-    <div class="grid grid-cols-4 gap-[20px] rounded-[25px] mt-[50px] border border-white bg-gray-100">
+    <div class="grid md:grid-cols-4 grid-cols-2 gap-2 md:gap-[20px] rounded-[25px] mt-[50px] border border-white bg-gray-100">
       <div class="flex flex-col justify-center">
-        <p class="text-left text-3xl text-black">Trier par :</p>
+        <p class="text-left t lg:text-3xl text-base  text-black">Trier par :</p>
       </div>
 
       <div class="flex items-center border-b-2 border-solid border-black">
-        <p class="pt-[15px] text-left text-3xl text-black">Artiste</p>
+        <p class="pt-[15px] text-left  lg:text-3xl text-base  text-black">Artiste</p>
         <div class="ml-auto flex items-center  border-black pt-5 ">
           <svg
-            width="34"
-            height="20"
+            width="20"
+            height="12"
             viewBox="0 0 34 20"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -51,11 +51,11 @@
       </div>
 
       <div class="flex items-center border-b-2 border-solid border-black">
-        <p class="pt-[15px] text-left text-3xl text-black">Date de passage</p>
+        <p class="pt-[15px] text-left  lg:text-3xl text-base  text-black">Date de passage</p>
         <div class="ml-auto flex items-center  border-black pt-5 ">
           <svg
-            width="34"
-            height="20"
+            width="20"
+            height="12"
             viewBox="0 0 34 20"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -81,11 +81,11 @@
       </div>
 
       <div class="flex items-center border-b-2 border-solid border-black">
-        <p class="text-left text-3xl text-black pt-[15px]">Style</p>
+        <p class="text-left  lg:text-3xl text-base  text-black pt-[15px]">Style</p>
         <div class="ml-auto flex items-center justify-between border-black pt-5 ">
           <svg
-            width="34"
-            height="20"
+            width="20"
+            height="12"
             viewBox="0 0 34 20"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -114,9 +114,9 @@
     <div class="flex justify-center py-20 font-alegreya-sans">
       <div class="flex w-[75%] flex-col gap-[40px] rounded-[35px] bg-gray-200 drop-shadow-sm">
         <img src="../../images/Image-1-3-_1_.webp" class="flex w-full rounded-tr-[35px] rounded-tl-[35px]" />
-        <p class="font-Alegreya Sans pl-10 text-left text-[80px] text-black">Yves Jamait</p>
+        <p class="font-Alegreya Sans pl-10 text-left lg:text-7xl md:text-5xl text-3xl  text-black">Yves Jamait</p>
         <div class="flex px-5">
-          <p class="font-Alegreya Sans flex text-left text-[52px] text-black">
+          <p class="font-Alegreya Sans flex text-left lg:text-5xl md:text-3xl text-2xl text-black">
             Passage le lundi 18 juillet entre 14h30 et 16h30 <br />
             Style : Guitare et Variété Francaise<br />Artiste venant de DIjon
           </p>
@@ -124,16 +124,16 @@
         <div class="flex">
           <hr class="flex w-[201.5vh] border-2 border-solid border-black bg-black" />
         </div>
-        <p class="ml-auto flex w-max py-10 pr-[50px] font-alegreya-sans text-5xl text-[#d92d3c]">En savoir plus</p>
+        <p class="ml-auto flex w-max py-10 pr-[50px] font-alegreya-sans text-2xl text-[#d92d3c]">En savoir plus</p>
       </div>
     </div>
 
     <div class="flex justify-center py-20 font-alegreya-sans">
       <div class="flex w-[75%] flex-col gap-[40px] rounded-[35px] bg-gray-200 drop-shadow-sm">
         <img src="../../images/Image-1-3-_1_.webp" class="flex w-full rounded-tr-[35px] rounded-tl-[35px]" />
-        <p class="font-Alegreya Sans pl-10 text-left text-[80px] text-black">Yves Jamait</p>
+        <p class="font-Alegreya Sans pl-10 text-left lg:text-7xl md:text-5xl text-3xl  text-black">Yves Jamait</p>
         <div class="flex px-5">
-          <p class="font-Alegreya Sans flex text-left text-[52px] text-black">
+          <p class="font-Alegreya Sans flex text-left lg:text-5xl md:text-3xl text-2xl text-black">
             Passage le lundi 18 juillet entre 14h30 et 16h30<br />
             Style : Guitare et Variété Francaise<br />Artiste venant de DIjon
           </p>
@@ -141,7 +141,7 @@
         <div class="flex">
           <hr class="flex w-[201.5vh] border-2 border-solid border-black bg-black" />
         </div>
-        <p class="ml-auto flex w-max py-10 pr-[50px] font-alegreya-sans text-5xl text-[#d92d3c]">En savoir plus</p>
+        <p class="ml-auto flex w-max py-10 pr-[50px] font-alegreya-sans text-2xl  text-[#d92d3c]">En savoir plus</p>
       </div>
     </div>
   </div>

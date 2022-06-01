@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       "colors": {
         "grey-gradient" : "#A8A29E",
+        "grey-gradiant-form" : "#bbb7b4",
         // Ici vos couleurs exportées de Figma
       },
       "fontSize": {

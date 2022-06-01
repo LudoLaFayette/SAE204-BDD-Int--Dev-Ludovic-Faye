@@ -5,12 +5,12 @@
     </div>
     <!-- Changement de page pour correction à la maquette : plus de card ici -->
     <div class="flex items-center justify-center gap-2.5 p-2.5">
-      <div class="mx-[5rem] mt-[-70px] flex rounded-[25px] border-2 border-red-600 bg-white px-[35px] py-1">
-        <h2 class="relative text-center font-alegreya-sans text-[80px] font-bold text-red-600">Histoire</h2>
+      <div class="mx-[5rem] mt-[-70px] flex rounded-[25px] border-2 border-red-600 bg-white md:text-4xl text-2xl py-1">
+        <h2 class="relative text-center font-alegreya-sans lg:text-8xl md:text-6xl text-2xl font-bold text-red-600">Histoire</h2>
       </div>
     </div>
   <div class="flex items-center justify-center gap-2.5 p-2.5">
-    <p class=" flex font-alegreya-sans text-center text-6xl text-zinc-900">
+    <p class=" flex font-alegreya-sans text-center md:text-3xl text-2xl  text-zinc-900">
       Voici la partie du site ou vous pourrez découvrir l’histoire du festival. Un festival qui prend place dans un cadre unique, au coeur
       de la ville de Sens. Le marché couvert, inauguré en 1882, est un exemple typique de l’architecture métallique du XIXe siècle : cette
       halle couverte de forme triangulaire, de style Baltard, constitue l’un des rares modèles de ce type en France. En 2015, l’édifice a
@@ -18,7 +18,7 @@
     </p>
   </div>
   <img src="../../images/image_2_1_.webp" class="w-full" />
-  <p class=" flex font-alegreya-sans text-center text-6xl text-zinc-900">Ce lieu a été choisi, car son style d’architecture, abrite un interieur riche en
+  <p class=" flex font-alegreya-sans text-center md:text-3xl text-2xl text-zinc-900">Ce lieu a été choisi, car son style d’architecture, abrite un interieur riche en
       emplacement de commerces et d’une scène centrale, dont il est possible de créer une scène locale. Les chanteurs qui se sont rendues
       sur cette scène, peuvent se rappeler de la résonnance de l’endroit, unique en son genre. Depuis 20 éditions, le festival peut vibrer
       en intérieur comme en exterieur avec la place de la cathédrale ainsi que les rues adjacantes qui acceuille les groupes locales lors de

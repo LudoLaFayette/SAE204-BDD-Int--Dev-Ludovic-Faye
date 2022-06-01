@@ -2,7 +2,7 @@
   <div class="flex flex-col bg-gradient-to-b from-grey-gradient to-red-700">
 
 
-    <div class="mx-12 flex justify-center p-20 text-center">
+    <div class="lg:mx-12 mx-4 flex justify-center lg:p-20 py-10 text-center">
       <h1 class="font-alegreya-sans mx-4 flex text-center lg:text-8xl md:text-6xl text-2xl italic text-white">
         “Un fesitival qui a des “h’ailles”.
          Un cadre unique tant historique.

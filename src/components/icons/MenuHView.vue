@@ -4,7 +4,7 @@
 >
   <svg
     width="41"
-    height="74"
+    height="40"
     viewBox="0 0 41 74"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
