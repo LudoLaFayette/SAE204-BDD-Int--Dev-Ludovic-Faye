@@ -3,3 +3,30 @@
 @tailwind utilities;
 
 /* Mettre ici les styles "globaux" */
+/*Avant le dark mode*/
+:root {
+    --couleur-text: black;
+    --couleur-fond: rgb(255, 255, 255);
+    --color-debut-gradient: #A8A29E;
+    --color-fin-gradient: #801e1e;
+    --couleur-interactive: #d92d3c;
+    --couleur-h2: #801e1e;
+    --couleur-footer:#B1ACA9;
+    --couleur-header : #A8A29E;
+    --color-card: black;
+}
+
+/*après dark mode*/
+@media (prefers-color-scheme: dark) {
+    :root {
+        --couleur-text: white;
+        --couleur-fond: rgb(0, 0, 0);
+        --color-debut-gradient: #777777b6;
+        --color-fin-gradient: rgb(0, 0, 0);
+        --couleur-interactive: #d92d3c;;
+        --couleur-h2: rgb(255, 255, 255);
+        --couleur-footer : #2e2e2e; 
+        --couleur-header: #777777b6;
+        --color-card: white;
+    }
+}

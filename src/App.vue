@@ -1,8 +1,8 @@
 <template>
   <header class="sticky"> 
-    <div class="flex justify-between items-center bg-[#A8A29E] sm:flex md:flex">
+    <div class="flex justify-between items-center bg-couleur-header sm:flex md:flex">
       <router-link to="/"><Logo></Logo></router-link>
-      <h1 class="hidden text-center font-happy-times-at-the-ikob-new-game-plus-edition font-bold text-[#801e1e] lg:flex lg:text-xl">
+      <h1 class="hidden text-center font-happy-times-at-the-ikob-new-game-plus-edition font-bold text-couleur-h2 lg:flex lg:text-xl">
         AUX’HALLES
       </h1>
       <span class="mx-4 block h-8 w-8 cursor-pointer">
@@ -10,7 +10,7 @@
         <span class="sr-only hidden">Menu</span>
       </span>
     </div>
-    <ul id="menu" v-if="menuOuvert" class="bg-[#A8A29E] py-4 text-center font-alegreya-sans text-2xl text-black md:text-lg">
+    <ul id="menu" v-if="menuOuvert" class="bg-couleur-header py-4 text-center font-alegreya-sans text-2xl text-black md:text-lg">
       <li class="my-8">
         <RouterLink class="my-8 hover:bg-white hover:text-black lg:px-4 xl:rounded-sm xl:pt-2" to="/">Accueil</RouterLink>
       </li>
@@ -36,12 +36,12 @@
   <main >
     <RouterView />
   </main>
-  <footer class="bg-[#b1aca9]">
+  <footer class="bg-couleur-footer">
     <div class="grid grid-cols-1 gap-8 p-[2rem] md:grid-cols-2">
       <div class="flex flex-col">
-        <h2 class="font-alegreya-sans text-2xl font-bold text-[#801e1e] md:text-4xl lg:text-6xl">Le Festival</h2>
-        <ul class="my-10 flex flex-col font-alegreya-sans text-base font-light md:text-3xl">
-          <li class="my-4"><RouterLink to="/concertListe">Les concerts</RouterLink></li>
+        <h2 class="font-alegreya-sans text-2xl font-bold text-couleur-h2 md:text-4xl lg:text-6xl">Le Festival</h2>
+        <ul class="my-10 flex flex-col font-alegreya-sans text-base text-text font-light md:text-3xl">
+          <li class="my-4 text-text"><RouterLink to="/concertListe">Les concerts</RouterLink></li>
           <li class="my-4"><RouterLink to="/artisteListe">Les artistes</RouterLink></li>
           <li class="my-4"><RouterLink to="/histoire">Notre histoire</RouterLink></li>
           <li class="my-4"><RouterLink to="/mentions">Mentions légales </RouterLink></li>
@@ -49,21 +49,21 @@
       </div>
 
       <div>
-        <h2 class="font-alegreya-sans text-2xl font-bold text-[#801e1e] md:text-4xl lg:text-6xl">Nous contacter</h2>
+        <h2 class="font-alegreya-sans text-2xl font-bold text-couleur-h2 md:text-4xl lg:text-6xl">Nous contacter</h2>
         <div class="my-5">
-          <p class="font-alegreya-sans italic text-black md:text-2xl lg:text-4xl">
+          <p class="font-alegreya-sans italic text-text md:text-2xl lg:text-4xl">
             Les Halles de sens <br />
             Place de la République <br />
             89100, Sens <br />
             03 86 64 00 50
           </p>
-          <li class="my-10 flex flex-col font-alegreya-sans text-base font-light md:text-3xl">
-            <RouterLink to="">Formulaire de contact </RouterLink>
+          <li class="my-10 flex flex-col font-alegreya-sans text-base font-light text-text md:text-3xl">
+            <RouterLink to="/contact">Formulaire de contact </RouterLink>
           </li>
         </div>
       </div>
       <div class="">
-        <h2 class="font-alegreya-sans text-2xl font-bold text-[#801e1e] md:text-4xl lg:text-6xl">Nos réseaux sociaux</h2>
+        <h2 class="font-alegreya-sans text-2xl font-bold text-couleur-h2 md:text-4xl lg:text-6xl">Nos réseaux sociaux</h2>
         <div class="my-10 flex flex-wrap gap-8">
           <a href=""
             ><svg
@@ -80,6 +80,7 @@
                 fill="#a2817f"
               ></path></svg
           ></a>
+          <span class="sr-only hidden">Facebook</span>
           <a href=""
             ><svg
               width="53"
@@ -96,6 +97,7 @@
               ></path>
             </svg>
           </a>
+          <span class="sr-only hidden">Twitter</span>
           <a href=""
             ><svg
               width="52"
@@ -111,6 +113,7 @@
                 fill="#a2817f"
               ></path></svg
           ></a>
+          <span class="sr-only hidden">Instagram</span>
           <a href=""
             ><svg
               width="52"
@@ -126,6 +129,7 @@
                 fill="#a2817f"
               ></path></svg
           ></a>
+          <span class="sr-only hidden">Linkedin</span>
         </div>
       </div>
     </div>
