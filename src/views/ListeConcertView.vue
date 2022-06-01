@@ -124,7 +124,9 @@
         <div class="flex">
           <hr class="flex w-[201.5vh] border-2 border-solid border-black bg-black" />
         </div>
+        <router-link to="/concert">
         <p class="ml-auto flex w-max py-10 pr-[50px] font-alegreya-sans text-2xl text-[#d92d3c]">RESERVER</p>
+        </router-link>
       </div>
     </div>
 
@@ -141,7 +143,9 @@
         <div class="flex">
           <hr class="flex w-[201.5vh] border-2 border-solid border-black bg-black" />
         </div>
+        <router-link to="/concert">
         <p class="ml-auto flex w-max py-10 pr-[50px] font-alegreya-sans text-2xl text-[#d92d3c]">RESERVER</p>
+        </router-link>
       </div>
     </div>
   </div>

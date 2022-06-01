@@ -6,7 +6,7 @@
       <div class="mx-[5rem] mt-[-70px] flex rounded-[25px] border-2 border-red-600 bg-white px-[35px] py-1">
         <h2 class="text-center font-alegreya-sans lg:text-8xl md:text-6xl text-2xl font-bold text-red-600">
           Liste des <br />
-          Concerts
+          Artistes
         </h2>
       </div>
     </div>
@@ -124,7 +124,10 @@
         <div class="flex">
           <hr class="flex w-[201.5vh] border-2 border-solid border-black bg-black" />
         </div>
+        <router-link to="/artiste">
+
         <p class="ml-auto flex w-max py-10 pr-[50px] font-alegreya-sans text-2xl text-[#d92d3c]">En savoir plus</p>
+        </router-link>
       </div>
     </div>
 
@@ -141,7 +144,9 @@
         <div class="flex">
           <hr class="flex w-[201.5vh] border-2 border-solid border-black bg-black" />
         </div>
+        <router-link to="/artiste">
         <p class="ml-auto flex w-max py-10 pr-[50px] font-alegreya-sans text-2xl  text-[#d92d3c]">En savoir plus</p>
+        </router-link>
       </div>
     </div>
   </div>

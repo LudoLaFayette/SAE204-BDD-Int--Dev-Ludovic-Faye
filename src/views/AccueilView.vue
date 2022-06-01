@@ -34,7 +34,9 @@
         <div class="flex">
           <hr class="flex w-[201.5vh] border-2 border-solid border-black bg-black" />
         </div>
+        <router-link class="font-alegreya-sans" to="/concertListe">
         <p class="ml-auto flex w-max py-10 pr-[50px] text-2xl text-[#d92d3c]">DÉCOUVRIR</p>
+        </router-link>
       </div>
     </div>
 
@@ -51,7 +53,9 @@
         <div class="flex">
           <hr class="flex w-[201.5vh] border-2 border-solid border-black bg-black" />
         </div>
+        <router-link class="font-alegreya-sans" to="/artisteListe">
         <p class="ml-auto flex w-max py-10 pr-[50px] text-2xl text-[#d92d3c]">DÉCOUVRIR</p>
+        </router-link>
       </div>
     </div>
 
@@ -68,7 +72,9 @@
         <div class="flex">
           <hr class="flex w-[201.5vh] border-2 border-solid border-black bg-black" />
         </div>
+        <router-link class="font-alegreya-sans" to="/histoire">
         <p class="ml-auto flex w-max py-10 pr-[50px] font-alegreya-sans text-2xl text-[#d92d3c]">DÉCOUVRIR</p>
+        </router-link>
       </div>
     </div>
   </div>
