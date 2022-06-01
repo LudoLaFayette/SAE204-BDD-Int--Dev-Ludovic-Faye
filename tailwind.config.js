@@ -34,6 +34,10 @@ module.exports = {
         "2xl": "5.0888671875rem",
         "full": "9999px"
        },
+       "boxShadow": {
+        "cardShadow": "5px 5px 5px 0px rgba(0,0,0,0.5)"
+       },
+
       
     },
 

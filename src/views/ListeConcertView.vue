@@ -112,7 +112,7 @@
     </div>
 
     <div class="flex justify-center py-20 font-alegreya-sans">
-      <div class="flex w-[75%] flex-col gap-[40px] rounded-[35px] bg-gray-200 drop-shadow-sm">
+      <div class="flex w-[75%] flex-col gap-[40px] rounded-[35px] bg-gray-200 shadow-cardShadow">
         <img src="../../images/Image-1-1-_1_.webp" class="flex w-full rounded-tr-[35px] rounded-tl-[35px]" />
         <p class="font-Alegreya Sans pl-10 text-left lg:text-7xl md:text-5xl text-3xl text-black">Yves Jamait</p>
         <div class="flex px-5">
@@ -129,7 +129,7 @@
     </div>
 
     <div class="flex justify-center py-20 font-alegreya-sans">
-      <div class="flex w-[75%] flex-col gap-[40px] rounded-[35px] bg-gray-200 drop-shadow-sm">
+      <div class="flex w-[75%] flex-col gap-[40px] rounded-[35px] bg-gray-200 shadow-cardShadow">
         <img src="../../images/Image-1-1-_1_.webp" class="flex w-full rounded-tr-[35px] rounded-tl-[35px]" />
         <p class="font-Alegreya Sans pl-10 text-left lg:text-7xl md:text-5xl text-3xl text-black">Yves Jamait</p>
         <div class="flex px-5">

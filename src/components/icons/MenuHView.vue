@@ -1,6 +1,6 @@
 <template>
     <div
-  class="flex justify-end items-center self-stretch flex-grow-0 flex-shrink-0 w-[59.84px] relative overflow-hidden gap-2.5 px-2.5 pt-5 pb-[17px]"
+  class="flex justify-end items-center w-[59.84px] relative overflow-hidden gap-2.5 px-2.5 pt-3 pb-[17px]"
 >
   <svg
     width="41"
@@ -8,7 +8,7 @@
     viewBox="0 0 41 74"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    class="self-stretch flex-grow relative"
+    class="self-stretch flex relative"
     preserveAspectRatio="none"
   >
     <path
