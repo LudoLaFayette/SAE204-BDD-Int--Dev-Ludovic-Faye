@@ -17,6 +17,10 @@
     --couleur-red-600: #dc2626;
     --couleur-tri: #f3f4f6;
     --couleur-card-2nd: #e5e7eb ;
+    --color-debut-gradient-2: #bbb7b4;
+    --color-fin-gradient-2: #801e1e;
+    --couleur-placeholder: #9ca3af;
+    
 }
 
 /*après dark mode*/
@@ -34,5 +38,8 @@
         --couleur-red-600: #7f1d1d;
         --couleur-tri: #4b5563;
         --couleur-card-2nd: #374151;
+        --color-debut-gradient-2: #777777b6;
+        --color-fin-gradient-2: black;
+        --couleur-placeholder: white;
     }
 }

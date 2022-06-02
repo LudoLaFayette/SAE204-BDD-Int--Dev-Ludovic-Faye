@@ -13,6 +13,8 @@ module.exports = {
         "interactive": "var(--couleur-interactive)",
         "debut-gradient" : "var(--color-debut-gradient)",
         "fin-gradient" : "var(--color-fin-gradient)",
+        "debut-gradient-2" : "var(--color-debut-gradient-2)",
+        "fin-gradient-2" : "var(--color-fin-gradient-2)",
         "couleur-header": "var(--couleur-header)",
         "couleur-footer": 'var(--couleur-footer)',
         "couleur-h2": 'var(--couleur-h2)',
@@ -29,7 +31,8 @@ module.exports = {
         "borderlLogo2": "#728ca8",
         "font-Card": "#e5e7eb",
         "red-action": "#d92d3c",
-        "mainTextCardColor": "#000000"
+        "mainTextCardColor": "#000000",
+        "placeholder": 'var(--couleur-placeholder)',
         // Ici vos couleurs exportées de Figma
       },
       "fontSize": {

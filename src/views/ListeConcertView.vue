@@ -3,7 +3,7 @@
     <img src="../../images/Image-1-1-_1_.webp" class="w-full" />
 
     <div class="flex items-center justify-center gap-2.5 p-2.5">
-      <div class="mx-[5rem] mt-[-70px] flex rounded-[25px] border-2 border--couleur-red-600 bg-fond px-[35px] py-1">
+      <div class="mx-[5rem] mt-[-70px] flex rounded-[25px] border-2 border--couleur-red-600 bg-tri px-[35px] py-1">
         <h2 class="text-center font-alegreya-sans lg:text-8xl md:text-6xl text-2xl font-bold text-couleur-red-600">
           Liste des <br />
           Concerts
