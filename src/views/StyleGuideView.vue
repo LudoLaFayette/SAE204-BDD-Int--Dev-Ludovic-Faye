@@ -305,6 +305,101 @@
         </router-link>
       </div>
     </div>
+      <div class="grid md:grid-cols-4 lg:gap-[20px] grid-cols-2 gap-2 rounded-[25px] mt-[50px] border border-fond bg-card-2nd">
+      <div class="flex flex-col justify-center">
+        <p class="text-left lg:text-3xl text-base text-text">Trier par :</p>
+      </div>
+
+      <div class="flex items-center border-b-2 border-solid border-text">
+        <p class="pt-[15px] text-left lg:text-3xl text-base text-text">Lieu de la scène</p>
+        <div class="ml-auto flex items-center  border-text pt-5 ">
+          <svg
+            width="20"
+            height="12"
+            viewBox="0 0 34 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="ml-auto lg:w-full w-1/2 stroke-black dark:stroke-white"
+            preserveAspectRatio="none"
+          >
+            <line
+              y1="-0.5"
+              x2="24.7607"
+              y2="-0.5"
+              transform="matrix(0.671269 0.741214 -0.671269 0.741214 0.347412 1)"
+              
+            ></line>
+            <line
+              y1="-0.5"
+              x2="24.7607"
+              y2="-0.5"
+              transform="matrix(0.671269 -0.741214 0.671269 0.741214 16.9685 19.353)"
+              
+            ></line>
+          </svg>
+        </div>
+      </div>
+
+      <div class="flex items-center border-b-2 border-solid border-text">
+        <p class="pt-[15px] text-left lg:text-3xl text-base text-text">Artiste</p>
+        <div class="ml-auto flex items-center  border-text pt-5 ">
+          <svg
+            width="20"
+            height="12"
+            viewBox="0 0 34 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="ml-auto lg:w-full w-1/2 stroke-black dark:stroke-white"
+            preserveAspectRatio="none"
+          >
+            <line
+              y1="-0.5"
+              x2="24.7607"
+              y2="-0.5"
+              transform="matrix(0.671269 0.741214 -0.671269 0.741214 0.347412 1)"
+              
+            ></line>
+            <line
+              y1="-0.5"
+              x2="24.7607"
+              y2="-0.5"
+              transform="matrix(0.671269 -0.741214 0.671269 0.741214 16.9685 19.353)"
+         
+            ></line>
+          </svg>
+        </div>
+      </div>
+
+      <div class="flex items-center border-b-2 border-solid border-text">
+        <p class="text-left lg:text-3xl text-base  text-text pt-[15px]">Catégorie</p>
+        <div class="ml-auto flex items-center justify-between border-text pt-5 ">
+          <svg
+            width="20 "
+            height="12"
+            viewBox="0 0 34 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="ml-auto lg:w-full w-1/4 stroke-black dark:stroke-white"
+            preserveAspectRatio="none"
+          >
+            <line
+              y1="-0.5"
+              x2="24.7607"
+              y2="-0.5"
+              transform="matrix(0.671269 0.741214 -0.671269 0.741214 0.347412 1)"
+              
+            ></line>
+            <line
+              y1="-0.5"
+              x2="24.7607"
+              y2="-0.5"
+              transform="matrix(0.671269 -0.741214 0.671269 0.741214 16.9685 19.353)"
+             
+            ></line>
+          </svg>
+        </div>
+      </div>
+    </div>
       </div>
     </div>
   </div>
