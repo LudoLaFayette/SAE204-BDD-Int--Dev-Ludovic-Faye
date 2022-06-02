@@ -10,7 +10,7 @@
         <span class="sr-only hidden">Menu</span>
       </span>
     </div>
-    <ul id="menu" v-if="menuOuvert" class="bg-couleur-header py-4 text-center font-alegreya-sans text-2xl text-black md:text-lg">
+    <ul id="menu" v-if="menuOuvert" class="bg-couleur-header py-4 text-center font-alegreya-sans text-2xl text-text md:text-lg">
       <li class="my-8">
         <RouterLink class="my-8 hover:bg-white hover:text-black lg:px-4 xl:rounded-sm xl:pt-2" to="/">Accueil</RouterLink>
       </li>
