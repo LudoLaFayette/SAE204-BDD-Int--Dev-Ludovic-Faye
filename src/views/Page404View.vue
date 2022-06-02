@@ -9,7 +9,7 @@
       <img src="../../images/error404.jpg" alt="error404" class="w-[25%]" />
     </div>
     <div class="mb-[45px] mt-[45px] p-5 text-center">
-      <p class="font-alegreya-sans text-2xl font-bold text-text">Désolée la page que vous recherchez est introuvable</p>
+      <p class="font-alegreya-sans text-2xl font-bold text-text mb-12">Désolée la page que vous recherchez est introuvable</p>
 
       <input type="text" id="myInput" @keyup="myFunction()" placeholder="Saissisez le nom de la page" title="Type in a name" />
 
@@ -18,7 +18,7 @@
         <li><router-link to="/concertListe">Listes des concerts</router-link></li>
         <li><router-link to="/histoire">L'histoire du festival</router-link></li>
         <li><router-link to="/contact">Nous contacter</router-link></li>
-        <li><router-link to="/">L'acceuil du site</router-link></li>
+        <li><router-link to="/styleGuide">Guide de style</router-link></li>
         <li><router-link to="/concert">Réservation</router-link></li>
         <li><router-link to="/artiste">Biographie de l'artiste</router-link></li>
       </ul>
