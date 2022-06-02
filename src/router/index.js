@@ -8,6 +8,7 @@ import ListeConcertView from '../views/ListeConcertView.vue'
 import MentionsLegalesView from '../views/MentionsLegalesView.vue'
 import PageConcertView from '../views/PageConcertView.vue'
 import Page404View from '../views/Page404View.vue'
+import StyleGuideView from '../views/StyleGuideView.vue'
 
 
 const router = createRouter({
@@ -21,7 +22,8 @@ const router = createRouter({
     { path: '/concertListe', name: 'ListeConcertView', component: ListeConcertView },
     { path: '/mentions', name: 'MentionsLegalesView', component: MentionsLegalesView },
     { path: '/concert', name: 'PageConcertView', component: PageConcertView }, // '/:pathMatch(.*)*'
-    { path: '/:pathMatch(.*)*', name: '404View', component: Page404View},
+    { path: '/:pathMatch(.*)*', name: '404View', component: Page404View },
+    { path: '/styleGuide', name: 'StyleGuide', component: StyleGuideView },
   ]
 })
 
