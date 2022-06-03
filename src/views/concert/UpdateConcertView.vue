@@ -68,7 +68,7 @@
         <div class="card-footer">
           <button type="submit" class="btn btn-light float-left">Modifier</button>
           <button class="btn btn-light float-right">
-            <router-link to="/listeCreateV2">Annuler</router-link>
+            <router-link to="/listeConcertV2">Annuler</router-link>
           </button>
         </div>
       </div>

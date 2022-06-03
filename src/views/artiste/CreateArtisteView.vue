@@ -1,20 +1,20 @@
 <template>
 <div class="container">
         <form enctype="multipart/form-data"
-        @submit.prevent="createConcert" >
+        @submit.prevent="createArtiste" >
             <div class="card bg-dark">
 
                 <div class="card-header">
-                    <h5 style="color:white;">Création Concert</h5>
+                    <h5 style="color:white;">Création Artiste</h5>
                 </div>    
 
                 <div class="card-body">   
                     <div class="row">
-                        <div class="col-6">
+                        <!-- <div class="col-6">
                             <div>
                                 <img class="preview img-fluid" :src="imageData"/>
                             </div>
-                        </div>
+                        </div> -->
 
                         <div class="col-6">
                             <div class="input-group">
@@ -22,20 +22,29 @@
                                     <span class="input-group-text" >Nom</span>
                                 </div>
                                 <input 
-                                    class="form-control" placeholder="Nom du Concert" v-model="Concert.nom"
+                                    class="form-control" placeholder="Nom" v-model="Artiste.nom"
                                     required />                    
                             </div>
                             <br/>
                             <div class="input-group">
                                 <div class="input-group-prepend">
-                                    <span class="input-group-text" >Description</span>
+                                    <span class="input-group-text" >Prenom</span>
                                 </div>
                                 <input 
-                                    class="form-control" placeholder="Description du Concert"
-                                    v-model="Concert.description" required />                    
+                                    class="form-control" placeholder="Prenom "
+                                    v-model="Artiste.prenom" required />                    
                             </div>
                             <br/>
                             <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" >Biographie</span>
+                                </div>
+                                <input 
+                                    class="form-control" placeholder="Biographie d'Artiste"
+                                    v-model="Artiste.biographie" required />                    
+                            </div>
+                            <br/>
+                            <!-- <div class="input-group">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text">Photo</span>
                                 </div>
@@ -45,7 +54,7 @@
                                     <label class="custom-file-label" for="file">Sélectionner l'image</label>
                                 </div>
                             </div>
-                            <br/>
+                            <br/> -->
                             <!-- <div class="input-group">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text" >Date naissance</span>
@@ -60,11 +69,11 @@
                             <br/> -->
                             <div class="input-group">
                                 <div class="input-group-prepend">
-                                    <span class="input-group-text" >Scène</span>
+                                    <span class="input-group-text" >Style</span>
                                 </div>
-                                <select class="custom-select " v-model="Concert.lieu" >
+                                <select class="custom-select " v-model="Artiste.style" >
                                     <option  selected disabled>Sélectionner une scène</option>
-                                    <option v-for="lieuConcert in listeLieuC" :key="lieuConcert.libellé">{{lieuConcert.libellé}}</option>
+                                    <option v-for="StyleMusique in listeStyleM" :key="StyleMusique.libellé">{{StyleMusique.libellé}}</option>
                                 </select>
                             </div>
                             <br/>
@@ -77,7 +86,7 @@
                         Créer
                     </button>
                     <button class="float-right btn btn-light" >
-                        <router-link to="/listeConcertV2" >Annuler</router-link>
+                        <router-link to="/listeArtisteV2" >Annuler</router-link>
                     </button>
                 </div>
 
@@ -113,71 +122,71 @@ export default {
   data() {
     return {
       imageData: null,
-      listeLieuC: [],
-      Concert: {
+      listeStyleM: [],
+      Artiste: {
         nom: null,
-        description: null,
-        photo: null,
-        lieu: null,
+        prenom: null,
+        biographie: null,
+        style: null,
       },
     };
   },
   mounted() {
-    this.getLieu();
+    this.getStyle();
   },
   methods: {
-     async getLieu() {
+     async getStyle() {
       const firestore = getFirestore();
-      const dbLieuC = collection(firestore, "LieuConcert");
-      const query = await getDocs(dbLieuC);
+      const dbStyleM = collection(firestore, "StyleMusique");
+      const query = await getDocs(dbStyleM);
       query.forEach((doc) => {
-        let lieuConcert = {
+        let StyleMusique = {
           id: doc.id,
           libellé: doc.data().libellé,
         };
-        this.listeLieuC.push(lieuConcert);
-        console.log('liste des scènes', this.listeLieuC);
+        this.listeStyleM.push(StyleMusique);
+        console.log('liste des styles', this.listeStyleM);
       });
     },
     
-    previewImage:function(event){
-   // Miseàjour de la photo du participant
-   this.file = this.$refs.file.files[0];
-   // Récupérer le nom du fichier pour la photo du participant
-   this.Concert.photo = this.file.name;
-   // Reference to the DOM input element
-   // Reference du fichieràprévisualiser
-   var input = event.target;
-   // On s'assure que l'onaau moins un fichieràlire
-   if(input.files && input.files[0]){
-       // Creation d'un filereader
-        // Pour lire l'image et la convertir en base 64
-        var reader=new FileReader();
-        // fonction callback appellée lors que le fichieraété chargé
-        reader.onload=(e)=>{
-            // Read image as base64 and set to imageData
-            // lecture du fichier pour mettreàjour
-            // la prévisualisation
-            this.imageData = e.target.result;
-       }
-       // Demarrage du reader pour la transformer en data URL(format base 64)
-        reader.readAsDataURL(input.files[0]);
-    }
-    },
-    async createConcert(){
+//     previewImage:function(event){
+//    // Miseàjour de la photo du participant
+//    this.file = this.$refs.file.files[0];
+//    // Récupérer le nom du fichier pour la photo du participant
+//    this.Artiste.photo = this.file.name;
+//    // Reference to the DOM input element
+//    // Reference du fichieràprévisualiser
+//    var input = event.target;
+//    // On s'assure que l'onaau moins un fichieràlire
+//    if(input.files && input.files[0]){
+//        // Creation d'un filereader
+//         // Pour lire l'image et la convertir en base 64
+//         var reader=new FileReader();
+//         // fonction callback appellée lors que le fichieraété chargé
+//         reader.onload=(e)=>{
+//             // Read image as base64 and set to imageData
+//             // lecture du fichier pour mettreàjour
+//             // la prévisualisation
+//             this.imageData = e.target.result;
+//        }
+//        // Demarrage du reader pour la transformer en data URL(format base 64)
+//         reader.readAsDataURL(input.files[0]);
+//     }
+//     },
+    async createArtiste(){
     // Obtenir storage Firebase
     const storage = getStorage();
     // Référence de l'imageàuploader
-    const refStorage = ref(storage,'concert/'+this.Concert.photo);
-    // Upload de l'image sur le Cloud Storage
-    await uploadString(refStorage,this.imageData,'data_url').then((snapshot)=>{
-        console.log('Uploadedabase64 string');
+    const refStorage = ref(storage,'artiste/');
+    // // Upload de l'image sur le Cloud Storage
+    await uploadString(refStorage,'data_url').then((snapshot)=>{
+        // console.log('Uploadedabase64 string');
         // Création du participant sur le Firestore
         const db = getFirestore();
-        const docRef = addDoc(collection(db,'Concert'),this.Concert);
+        const docRef = addDoc(collection(db,'Artiste'),this.Artiste);
     });
     // redirection sur la liste des participants
-    this.$router.push('/listeConcertV2');
+    this.$router.push('/listeArtisteV2');
     },
 
 
